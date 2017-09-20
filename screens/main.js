@@ -1,4 +1,3 @@
-// Include React
 import React from "react";
 import {
   Image,
@@ -16,8 +15,6 @@ export default class Main extends React.Component {
     header: null,
   };
 
-
- 
       render() {
     return (
       <View>
@@ -29,14 +26,11 @@ export default class Main extends React.Component {
             <Text style={styles.Header}>Welcome to GP-Landscaping</Text>
             
             <Text className="text-center">
-            
-              
+                          
             {'\n'}{'\n'}
 
               <Text style={styles.MainText}>
               Need tools? Try clicking on the Building below.
-
-              
 
               {'\n'}{'\n'}{'\n'}{'\n'}
 
@@ -47,23 +41,7 @@ export default class Main extends React.Component {
 
               </Text>
             </Text>
-          </View>
-
-         
-         
-
-
-          {/*<View className="col-md-6">
-
-           {this.props.children}
-           
-            <Link to ="clients"><button className= "btn btn-success">New Client</button></Link>
-          </View>*/}
-
-
-
-          
-          
+          </View> 
         </View>
       </View>
       </Image>
@@ -72,7 +50,6 @@ export default class Main extends React.Component {
   }
 };
 
-// Export the component back for use in other files
 const styles = StyleSheet.create({
   Header: {
     width: '84%',
@@ -102,5 +79,4 @@ const styles = StyleSheet.create({
     height: '100%',
 
   },
-  
 })

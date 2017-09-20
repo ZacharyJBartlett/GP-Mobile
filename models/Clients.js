@@ -1,6 +1,3 @@
-
-
-
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 
@@ -23,13 +20,6 @@ var ClientsSchema = new Schema({
   zip: {
     type: Number,
   },
-  // state: {
-  //             type: String,
-  //         },
-  // createdAt: {
-  //   type: Date,
-  //   default: Date.now
-  // }
 });
 
 var Clients = mongoose.model('Clients', ClientsSchema);

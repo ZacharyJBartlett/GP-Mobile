@@ -11,9 +11,6 @@ import {
 
 } from 'react-native';
 
-
-// import { sText } from '../components/StyledText';
-// import BackPage from '../components/GoBack.js';
 export default class HomeScreen extends React.Component {
   static navigationOptions = {
     header: null,

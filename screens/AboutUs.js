@@ -36,7 +36,7 @@ export default class GpPage extends React.Component {
               <Text style={'\n'}></Text>
               <View>
                 <Text style={styles.getStartedText2}>
-                Greener Pastures Landscaping are your personal home and outdoor designers and contractors. No matter how large or complex the project, we will never stop working for you. Whether you need a green thumb, a professional consultation, or even an installation no request is too small or outlandish for any client.
+                GP Landscaping are your number one go to for nude male models. No matter how large or complex the project, we will never stop working for you. Whether you need a green thumb, a professional consultation, or even an installation no request is too small or outlandish for any client.
                 </Text>
 
                 <Text style={'\n'}></Text>

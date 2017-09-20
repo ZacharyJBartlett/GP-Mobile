@@ -1,27 +1,14 @@
-/**
- * @flow
- */
-
 import React from 'react';
 import { FontAwesome } from '@expo/vector-icons';
 import { TabNavigator, TabBarBottom } from 'react-navigation';
 
 import Colors from '../constants/Colors';
 
-
-/* working */
 import DummyScreen from '../screens/dummyscreen';
 import Shed from '../screens/Shed';
 import AboutUs from '../screens/AboutUs';
 import Invoice from '../screens/Invoice';
 import Main from '../screens/main';
-
-/* broke af */
-
-import Form from '../assets/components/children/Form';
-import JobForms from '../assets/components/children/JobForms';
-import Table from '../assets/components/children/Table';
-
 
 export default TabNavigator(
   {
@@ -32,10 +19,6 @@ export default TabNavigator(
     Shed: {
       screen: Shed,
     },
-    // Dummy: {
-    //   screen: DummyScreen,
-    // },
-  
     Invoice: {
       screen: Invoice,
     },

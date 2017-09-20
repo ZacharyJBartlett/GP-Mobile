@@ -22,8 +22,6 @@ export default class GpPage extends React.Component {
           style={styles.container}
           contentContainerStyle={styles.contentContainer}>
           
-          
-          
               <View style={styles.getStartedContainer}>
               
               <Text style={styles.getStartedText}>
@@ -73,8 +71,6 @@ export default class GpPage extends React.Component {
               </TouchableOpacity>
               </View>
           </ScrollView>
-        
-        
 
           <View
             style={[styles.codeHighlightContainer, styles.navigationFilename]}>
@@ -195,5 +191,4 @@ const styles = StyleSheet.create({
     textAlign: 'center',
 
   },
-  
 });
