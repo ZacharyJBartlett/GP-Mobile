@@ -1,8 +1,7 @@
-var mongoose = require("mongoose");
-var Schema = mongoose.Schema;
+import mogoose from 'mongoose';
 
-var JobsSchema = new Schema({
-   date: {
+const JobsSchema = mongoose.Schema({
+  date: {
     type: String
   },
     type: {
@@ -20,9 +19,6 @@ var JobsSchema = new Schema({
   notes: {
     type: String
   }
-  
+})
 
-});
-
-var Jobs = mongoose.model("Jobs", JobsSchema);
-module.exports = Jobs;
+export default mongoose.model('JobsSchema', new JobsSchema);
