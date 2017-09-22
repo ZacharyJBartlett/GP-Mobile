@@ -1,7 +1,6 @@
-var mongoose = require('mongoose');
-var Schema = mongoose.Schema;
+import mongoose from 'mongoose';
 
-var ClientsSchema = new Schema({
+const Clients =  mongoose.Schema({
   firstName: {
     type: String,
   },
@@ -22,6 +21,4 @@ var ClientsSchema = new Schema({
   },
 });
 
-var Clients = mongoose.model('Clients', ClientsSchema);
-
-module.exports = Clients;
+export default mongoose.model('Clients', new Clients);
