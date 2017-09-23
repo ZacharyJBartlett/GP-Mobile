@@ -36,7 +36,7 @@ export default class GpPage extends React.Component {
               <Text style={'\n'}></Text>
               <View>
                 <Text style={styles.getStartedText2}>
-                GP Landscaping are your number one go to for nude male models. No matter how large or complex the project, we will never stop working for you. Whether you need a green thumb, a professional consultation, or even an installation no request is too small or outlandish for any client.
+                G.P. Landscaping are your number one go to for all your landscaping needs. No matter how large or complex the project, we will never stop working for you. Whether you need a green thumb, a professional consultation, or even an installation no request is too small or outlandish for any client.
                 </Text>
 
                 <Text style={'\n'}></Text>
@@ -48,7 +48,7 @@ export default class GpPage extends React.Component {
                 <Text style={'\n'}></Text>
 
                 <Text style={styles.getStartedText2}>
-                With affordable and negotiable pricing, find out if G.P. Landscaping
+                With affordable and negotiable pricing, find out if G.P. Landscaping is your next, best choice.
                 </Text>
                 </View>
                 
@@ -68,20 +68,19 @@ export default class GpPage extends React.Component {
   
   _handleHelpPress0 = () => {
     Linking.openURL(
-      'https://agar.io'
+      'https://tinyurl.com/lowesrentals'
     );
   };
   _handleHelpPress1 = () => {
     Linking.openURL(
-      'https://www.facebook.com'
+      'http://www.homedepot.com/c/tool_and_truck_rental'
     );
   };
   _handleHelpPress2 = () => {
     Linking.openURL(
-      'https://www.google.com'
+      'https://www.lawnsite.com/'
     );
   };
-  
 }
 
 const styles = StyleSheet.create({

@@ -8,7 +8,7 @@ const JobsSchema = mongoose.Schema({
   	type: String
   }, 
   materials: {
-    type: String
+    type: Stringzz
   },
   bid: {
     type: String
