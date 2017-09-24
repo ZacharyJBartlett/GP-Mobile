@@ -15,7 +15,6 @@ export default TabNavigator(
     MainPage: {
       screen: Main,
     },
-
     Shed: {
       screen: Shed,
     },
@@ -41,9 +40,6 @@ export default TabNavigator(
           
           case 'Shed':
             iconName = 'building';
-            break;
-          case 'Dummy':
-            iconName = 'user-circle';
             break;
           case 'Client':
             iconName = 'info-circle';
