@@ -37,7 +37,6 @@ export default TabNavigator(
           case 'MainPage':
             iconName = 'superpowers';
             break;
-          
           case 'Shed':
             iconName = 'building';
             break;
@@ -47,12 +46,11 @@ export default TabNavigator(
           case 'Invoice':
             iconName = 'address-book';
             break;  
-          
         }
         return (
           <FontAwesome
             name={iconName}
-            size={32}
+            size={30}
             color={focused ? Colors.tabIconSelected : Colors.tabIconDefault}
           />
         );

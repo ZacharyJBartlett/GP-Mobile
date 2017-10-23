@@ -39,6 +39,13 @@ export default class Main extends React.Component {
 
               To add a new client, please click on the Book Icon below.
 
+
+              To view customer information, please click on the button below.
+              <Button
+           onPress={this._handleHelpPress}
+           title='Jobs list'
+           color='#2980B9'
+           /> 
               </Text>
             </Text>
           </View> 
@@ -48,6 +55,11 @@ export default class Main extends React.Component {
       </View>
     );
   }
+  handleHelpPress = () => {
+    Linking.openURL(
+      'https://nameless-plains-72696.herokuapp.com/Table'
+    );
+  }; 
 };
 
 const styles = StyleSheet.create({
