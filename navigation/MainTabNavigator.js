@@ -4,7 +4,7 @@ import { TabNavigator, TabBarBottom } from 'react-navigation';
 
 import Colors from '../constants/Colors';
 
-import DummyScreen from '../screens/dummyscreen';
+// import DummyScreen from '../screens/dummyscreen';
 import Shed from '../screens/Shed';
 import AboutUs from '../screens/AboutUs';
 import Invoice from '../screens/Invoice';
