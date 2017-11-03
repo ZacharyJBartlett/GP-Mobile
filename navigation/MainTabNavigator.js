@@ -15,10 +15,10 @@ export default TabNavigator(
     MainPage: {
       screen: Main,
     },
-    Shed: {
+    Invoice: {
       screen: Invoice,
     },
-    Invoice: {
+    Shed: {
       
       screen: Shed,
     },
