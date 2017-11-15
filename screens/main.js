@@ -38,7 +38,7 @@ export default class Main extends React.Component {
               {'\n'}{'\n'}{'\n'}{'\n'}
 
               To add a new client, please click on the Book Icon below.
-
+              {'\n'}{'\n'}{'\n'}{'\n'}
 
               To view customer information, please click on the button below.
               <Button
