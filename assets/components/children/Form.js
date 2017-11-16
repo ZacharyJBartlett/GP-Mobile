@@ -1,13 +1,9 @@
-
 var React = require("react");
 var axios = require("axios");
 // var Dropdown = require('react-simple-dropdown');
 // var DropdownTrigger = Dropdown.DropdownTrigger;
 // var DropdownContent = Dropdown.DropdownContent;
-
 var Link = require("react-router").Link;
-
-
 // Form is the main component. It includes the banner and form element
 var Form = React.createClass({
 
@@ -18,13 +14,9 @@ getInitialState: function() {
     address: '',
     city:'',
     zip: '',
-    // state: 'Alabama',
-
-
+    state: '',
   }
 },
-
-
  handleSubmit: function(e) {
             
             console.log("submit");           
@@ -36,8 +28,6 @@ getInitialState: function() {
                 clientZip: this.zip.value,
 
                 // state: this.state.value,
-
-
                 // userEmail: this.email.value,
                 // userPassword: this.password1.value
             }).then(function(response) {            
@@ -46,11 +36,9 @@ getInitialState: function() {
                 console.log(error);
             });
         },
-
         render: function() {
           console.log("check")
             return(
-
                 <div className="container">
          <div className="row">
           
@@ -69,9 +57,7 @@ getInitialState: function() {
                                     <label htmlFor="city">City</label>
                                     <input type="text" name="city" placeholder="City" ref={(input) => { this.city= input; }}/>
                                     <label htmlFor="city">Zip</label>
-                                    <input type="text" name="zip" placeholder="Zip Code" ref={(input) => { this.zip= input; }}/>
-                                     
-                  
+                                    <input type="text" name="zip" placeholder="Zip Code" ref={(input) => { this.zip= input; }}/>           
                                    <Link to ="jobs"><button className= "btn btn-success">Add New Job</button></Link>
                                 </form>
                             </div>
@@ -80,8 +66,5 @@ getInitialState: function() {
                  </div>
             );
         }
-
       });
-
-// Export the component back for use in other files
 module.exports = Form;
