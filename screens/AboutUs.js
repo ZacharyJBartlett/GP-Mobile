@@ -88,12 +88,6 @@ const styles = StyleSheet.create({
     flex: 1,
     width: '100%',
   },
-  developmentModeText: {
-    marginBottom: 20,
-    color: 'rgba(0,0,0,0.4)',
-    fontSize: 15,
-    textAlign: 'center',
-  },
   contentContainer: {
     paddingTop: 80,
   },
@@ -110,16 +104,6 @@ const styles = StyleSheet.create({
     resizeMode: 'contain',
     marginTop: 3,
     marginLeft: -10,
-  },
-  getStartedContainer: {
-    alignItems: 'center',
-    marginHorizontal: 50,
-  },
-  homeScreenFilename: {
-    marginVertical: 7,
-  },
-  codeHighlightText: {
-    color: 'rgba(96,100,109, 0.8)',
   },
   codeHighlightContainer: {
     backgroundColor: 'rgba(0,0,0,0.05)',
@@ -157,11 +141,6 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     backgroundColor: '#fbfbfb',
     paddingVertical: 20,
-  },
-  tabBarInfoText: {
-    fontSize: 17,
-    color: 'rgba(96,100,109, 1)',
-    textAlign: 'center',
   },
   navigationFilename: {
     marginTop: 5,
